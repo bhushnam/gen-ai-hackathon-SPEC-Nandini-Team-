@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hypertension Detection – Floating Tables</title>
+  <link rel="stylesheet" href="home.css">
+  
+</head>
+<body>
+    <header class="nandhiiii">
+        <h1>Hypertension Risk Assessment System</h1>
+        <p>Comprehensive tool for evaluating hypertension risk based on patient data and clinical guidelines.</p>
+    </header>
+
+  <div class="container">
+
+    <!-- LEFT FLOATING TABLE -->
+    <form class="card left-card">
+      <h2>Patient Data Input Form</h2>
+
+      <fieldset class="form-grid">
+        <div class="form-group">
+          <label for="gender">Gender</label>
+          <select id="gender" name="gender" required>
+            <option>Select Gender</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="agegroup">Age Group</label>
+          <select id="agegroup" name="agegroup" required>
+            <option>Select Age Range</option>
+            <option>18-30</option>
+            <option>31-45</option>
+            <option>46-60</option>
+            <option>60+</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="familyhistory">Family History of Hypertension</label>
+          <select id="familyhistory" name="familyhistory" required>
+            <option>Select Option</option>
+            <option>Yes</option>
+            <option>No</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="medicalcare">Currently Under Medical Care</label>
+          <select id="medicalcare" name="medicalcare" required>
+            <option>Select Option</option>
+            <option>Yes</option>
+            <option>No</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="bpmedication">Currently Taking BP Medication</label>
+          <select id="bpmedication" name="bpmedication" required>
+            <option>Select Option</option>
+            <option>Yes</option>
+            <option>No</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="severity">Symptom Severity</label>
+          <select id="severity" name="severity" required>
+            <option>Select Severity</option>
+            <option>Mild</option>
+            <option>Moderate</option>
+            <option>Severe</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="shortness">Shortness of Breath</label>
+          <select id="shortness" name="shortness" required>
+            <option>Select Option</option>
+            <option>Yes</option>
+            <option>No</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="vision">Vision Changes</label>
+          <select id="vision" name="vision" required>
+            <option>Select Option</option>
+            <option>Yes</option>
+            <option>No</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="nosebleeds">Frequent Nosebleeds</label>
+          <select id="nosebleeds" name="nosebleeds" required>
+            <option>Select Option</option>
+            <option>Yes</option>
+            <option>No</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="diagnosis">Time Since Diagnosis</label>
+          <select id="diagnosis" name="diagnosis" required>
+            <option>Select Time Period</option>
+            <option>New</option>
+            <option>&lt; 1 Year</option>
+            <option>1-5 Years</option>
+            <option>&gt; 5 Years</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="systolic">Systolic Pressure</label>
+          <select id="systolic" name="systolic" required>
+            <option class="option">Select Range</option>
+            <option>&lt;120</option>
+            <option>120-129</option>
+            <option>130-139</option>
+            <option>≥140</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="diastolic">Diastolic Pressure</label>
+          <select id="diastolic" name="diastolic" required>
+            <option>Select Range</option>
+            <option>&lt;80</option>
+            <option>80-89</option>
+            <option>≥90</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="diet">Heart-Healthy Diet</label>
+          <select id="diet" name="diet" required>
+            <option>Select Option</option>
+            <option>Yes</option>
+            <option>No</option>
+          </select>
+        </div>
+      </fieldset>
+
+      <button type="submit" class="btn">Generate Risk Assessment</button>
+    </form>
+
+    <!-- RIGHT FLOATING TABLE -->
+    <div class="card right-card">
+      <h3>About This System</h3>
+      <ul>
+        <li>Evidence-based risk assessment</li>
+        <li>Clinical guideline compliance</li>
+        <li>Personalized recommendations</li>
+        <li>Professional medical support</li>
+      </ul>
+
+      <h3>Blood Pressure Guidelines</h3>
+      <table class="bp-table">
+        <tr><td><b>Normal:</b></td><td>&lt;120 / &lt;80</td></tr>
+        <tr><td><b>Elevated:</b></td><td>120-129 / &lt;80</td></tr>
+        <tr><td><b>Stage 1:</b></td><td>130-139 / 80-89</td></tr>
+        <tr><td><b>Stage 2:</b></td><td>≥140 / ≥90</td></tr>
+        <tr><td><b>Crisis:</b></td><td>&gt;180 / &gt;120</td></tr>
+      </table>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2026 Hypertension Risk Assessment System. All rights reserved.</p>
+    <p>Developed for clinical evaluation and patient awareness purposes.</p>
+    <p>Always consult with a healthcare professional for medical advice.</p>
+  </footer>
+
+</body>
+</html>
